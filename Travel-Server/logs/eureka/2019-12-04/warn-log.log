@@ -1,0 +1,12 @@
+2019-12-04 14:56:53.313 [restartedMain] WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/api-eureka/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2019-12-04 14:57:15.150 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-12-04 14:57:15.165 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-12-04 15:23:35.794 [Eureka-EvictionTimer] WARN  com.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for API-INFORMATION/AFODY-610041329:api-information:10003
+2019-12-04 15:23:46.069 [http-nio-8080-exec-1] WARN  com.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: API-INFORMATION - AFODY-610041329:api-information:10003
+2019-12-04 15:23:46.071 [http-nio-8080-exec-1] WARN  com.netflix.eureka.resources.InstanceResource - Not Found (Renew): API-INFORMATION - AFODY-610041329:api-information:10003
+2019-12-04 15:23:58.101 [Eureka-EvictionTimer] WARN  com.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for API-INFORMATION/AFODY-610041329:api-information:10003
+2019-12-04 15:23:59.314 [http-nio-8080-exec-3] WARN  com.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: lease doesn't exist, registering resource: API-INFORMATION - AFODY-610041329:api-information:10003
+2019-12-04 15:23:59.318 [http-nio-8080-exec-3] WARN  com.netflix.eureka.resources.InstanceResource - Not Found (Renew): API-INFORMATION - AFODY-610041329:api-information:10003
+2019-12-04 15:27:15.891 [Eureka-EvictionTimer] WARN  com.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for API-USER/AFODY-610041329:api-user:10002
+2019-12-04 15:28:06.712 [Eureka-EvictionTimer] WARN  com.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for API-INFORMATION/AFODY-610041329:api-information:10003
+2019-12-04 15:28:57.465 [Eureka-EvictionTimer] WARN  com.netflix.eureka.registry.AbstractInstanceRegistry - DS: Registry: expired lease for API-MESSAGE/AFODY-610041329:api-message:10001

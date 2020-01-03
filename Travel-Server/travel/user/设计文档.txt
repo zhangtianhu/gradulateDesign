@@ -1,0 +1,51 @@
+用户模块设计思路
+
+[登录]
+    1.账号(手机号，邮箱),密码登录
+     - 获取登录请求的账号密码 username(判断是手机号还是邮箱), password, IP(登录) 对密码进行加盐和数据库进行比对
+     -
+       - [比对失败]则返回前端数据 账号密码不正确
+       - [比对成功]则生成一个随机Token值存入Redis中(有效时间1小时)其中Redis存储的格式形式 K=Token值, V=允许请求的URI,多个URI用','分割
+       - Token相当一个通行证, 将Token值传回前端, 当网关模块开启需要对用户的请求URI和Token进行检验, 若Token存在则重定向到主界面, 前
+       - 端界面通过Token去后端获取用户数据
+    2.QQ登录
+       - 遇到域名备案问题, 暂时无法解决
+    3.微信登录
+       - 暂无
+    4.其他方式登录
+       - 暂无
+    5.免密码登录
+       - 将Token值存入前端的localStorage中, 每次用户请求从localStorage获取Token并将Token值携带到请求URL中
+       - 若网关模块开启, 去匹对Token的信息和上次登录的IP地址是否一直, 若Token在Redis中不存在或者IP地址不一致则提示重新登录，并重定向到登录界面
+[注册]
+    用户表设计[sys_user]
+    id            varchar     ID        [随机生成] *主键*
+    mobile        varchar     手机号
+    email         varchar     邮箱
+    user_ype      varchar     用户类型    [1.普通用户,2.超级用户,3.超级管理员]
+    password      varchar     密码       [需要加盐处理MD510次加密]
+    name          varchar     姓名
+    photo         varchar     用户头像    [用户头像有OSS存入OSS,没有本地搭建Nginx图片服务器,第三方登录则直接获取]
+    login_ip      varchar     登录IP
+    login_date    datetime    登录时间
+    login_flag    varchar     是否可登录   [0.不可登录,1.可登录,2.锁住]
+    create_by     varchar     创建者      [和第一次创建的账号一致]
+    update_by     varchar     更新者      [和当前登录的账号一致]
+    update_date   datetime    更新时间
+    remarks       varchar     备注信息
+    url           varchar     可访问的URL  [用,分割如/usr/login,/usr/register]
+    del_flag      varchar     删除标记     [0.注销,1.未注销]
+    1.需要注册的信息
+       [必须]
+        mobiile 或 email
+        user_ype
+        password
+        login_ip
+        login_date
+        login_flag
+        create_by
+        update_by
+        del_flag
+[权限]
+    用户权限这块通过网关去控制, 当用户登录获取token并根据token从Redis获取权限URL, 当不满足URL时则返回前端权限不足
+

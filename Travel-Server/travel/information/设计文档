@@ -1,0 +1,19 @@
+信息模块设计思路
+
+一. 该模块主要是为Travel前端提供页面数据
+
+[Home页面]
+   1.该页面数据主要由Swiper(轮播图)、Recommend(推荐)、Weekend(周末)、Icons(图标)、HotCrunchies(热门榜单)这5部分组成
+   其中该数据存储在MongoDB之中,数据的存储格式是(这里以轮播图数据为例)
+   > db.swiperEntity.find()
+   { "_id" : ObjectId("5b79810313a73c08bdae65f0"), "swiperId" : "0001", "imgUrl" : "http://img1.qunarzz.com/piao/fusion/1801/1a/94428c6dea109402.jpg_640x200_2cf590d8.jpg", "_class" : "com.travel.api.beans.SwiperEntity" }
+   { "_id" : ObjectId("5b79810313a73c08bdae65f1"), "swiperId" : "0002", "imgUrl" : "http://img1.qunarzz.com/piao/fusion/1802/42/7c92b9a381e46402.jpg_640x200_1cdce2a4.jpg", "_class" : "com.travel.api.beans.SwiperEntity" }
+   { "_id" : ObjectId("5b79810313a73c08bdae65f2"), "swiperId" : "0003", "imgUrl" : "http://img1.qunarzz.com/piao/fusion/1802/51/e78f936a5b404102.jpg_640x200_c14f0b3a.jpg", "_class" : "com.travel.api.beans.SwiperEntity" }
+   { "_id" : ObjectId("5b79810313a73c08bdae65f3"), "swiperId" : "0004", "imgUrl" : "http://img1.qunarzz.com/piao/fusion/1712/91/a275569091681d02.jpg_640x200_0519ccb9.jpg", "_class" : "com.travel.api.beans.SwiperEntity" }
+   { "_id" : ObjectId("5b7a7aa113a73c17e927a651"), "swiperId" : "0005", "imgUrl" : "http://img1.qunarzz.com/piao/fusion/1712/51/36632b2cb850e902.jpg_750x200_fa4120db.jpg", "_class" : "com.travel.api.beans.SwiperEntity" }
+   -  其中_id为MongoDB的表id，注意字段中自定义id换用别的名称如xxxId
+   -  swiperId  ： 为swiperEntity的id
+   -  imgUrl    ： 为图片路径 改图片目前是从网上搜寻的，后期需要将该图片存储在SSO或者自己搭建的图片服务器中
+
+[City页面]
+   1.由于City界面都城市数据是网上爬过来的格式不好拆分，暂时返回前端json文件

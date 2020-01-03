@@ -1,0 +1,8 @@
+2019-12-24 22:25:24.270 [restartedMain] WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator - Could not locate PropertySource: label not found
+2019-12-24 22:25:30.339 [restartedMain] WARN  tk.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'sysUserMapper' and 'com.travel.api.interfaces.SysUserMapper' mapperInterface. Bean already defined with the same name!
+2019-12-24 22:25:30.340 [restartedMain] WARN  tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.travel.api]' package. Please check your configuration.
+2019-12-24 22:25:30.381 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'sysUserMapper' and 'com.travel.api.interfaces.SysUserMapper' mapperInterface. Bean already defined with the same name!
+2019-12-24 22:25:30.391 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.travel.api]' package. Please check your configuration.
+2019-12-24 22:26:09.966 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-12-24 22:26:09.985 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-12-24 22:26:19.456 [restartedMain] WARN  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server

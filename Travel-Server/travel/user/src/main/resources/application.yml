@@ -1,0 +1,62 @@
+spring:
+  application:
+    name: api-user
+  redis:
+      database: 1
+      host: travelproject.top
+      port: 6379
+  datasource:
+    #url: jdbc:mysql://www.travelproject.top:3306/travel_user?useUnicode=true&characterEncoding=UTF-8
+    url: jdbc:mysql://localhost:3306/travel_user?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    filters: stat
+    maxActive: 20
+    initialSize: 1
+    maxWait: 60000
+    minIdle: 1
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: select 'x'
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxOpenPreparedStatements: 20
+mybatis:
+  #mapperLocations: classpath*:/mapper/*.xml
+  typeAliasesPackage: com.travel.api.beans
+mapper:
+  mappers: com.travel.api.mappers.CommonMapper #通用mapper的所在接口名称
+  identity: MYSQL
+server:
+  port: 10002
+feign:
+  hystrix:
+    enabled: true
+eureka:
+  instance:
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 5
+    prefer-ip-address: true
+  client:
+    service-url:
+     defaultZone: http://localhost:8080/eureka
+logging:
+  config: classpath:logback.xml
+project:
+  token:
+    expire: 7200
+# 分页配置
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  params: count=countSql
+
+# 微信配置
+wechat:
+  AppId: wxb20ac7414e5fcfc7
+  AppSecret: 6ac21d7240adaee61da71ad78439a7f6

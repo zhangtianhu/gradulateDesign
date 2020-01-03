@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: api-gateway
+server:
+  port: 8081
+zuul:
+  routes:
+    api-swagger:
+      path: /swagger/** # 所有/swagger/**请求都会被拦截且被转发到api-swagger服务
+      service-id: api-swagger
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+     defaultZone: http://localhost:8080/eureka
+logging:
+  config: classpath:logback.xml

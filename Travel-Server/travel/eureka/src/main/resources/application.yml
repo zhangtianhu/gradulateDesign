@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: api-eureka # 应用名称
+server:
+  port: 8080 # 服务端口
+eureka:
+  instance:
+    prefer-ip-address: true # 服务使用ip注册
+    hostname: localhost  # eureka实例的主机名
+  server:
+    enable-self-preservation: false # 关闭自我保护
+    eviction-interval-timer-in-ms: 1000 # 检查失效服务的时间
+  client:
+    registerWithEureka: false # 是否将自身注册
+    fetchRegistry: false # 如果为true，启动时报警
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/ # eureka服务地址
+logging:
+  config: classpath:logback.xml # 日志文件

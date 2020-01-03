@@ -1,0 +1,10 @@
+2019-12-25 17:30:13.312 [restartedMain] WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/api-information/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2019-12-25 17:30:38.717 [restartedMain] WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/api-message/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2019-12-25 17:30:47.181 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.travel.api.interfaces]' package. Please check your configuration.
+2019-12-25 17:30:47.861 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.travel.api]' package. Please check your configuration.
+2019-12-25 17:31:14.812 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-12-25 17:31:14.833 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-12-25 17:31:19.769 [restartedMain] WARN  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2019-12-25 17:31:21.862 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-12-25 17:31:21.872 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-12-25 17:31:30.138 [restartedMain] WARN  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server

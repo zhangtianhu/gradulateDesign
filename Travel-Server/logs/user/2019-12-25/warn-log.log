@@ -1,0 +1,8 @@
+2019-12-25 17:29:35.864 [restartedMain] WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/api-user/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2019-12-25 17:29:43.642 [restartedMain] WARN  tk.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'sysUserMapper' and 'com.travel.api.interfaces.SysUserMapper' mapperInterface. Bean already defined with the same name!
+2019-12-25 17:29:43.642 [restartedMain] WARN  tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.travel.api]' package. Please check your configuration.
+2019-12-25 17:29:43.752 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'sysUserMapper' and 'com.travel.api.interfaces.SysUserMapper' mapperInterface. Bean already defined with the same name!
+2019-12-25 17:29:43.752 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.travel.api]' package. Please check your configuration.
+2019-12-25 17:30:36.432 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-12-25 17:30:36.495 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-12-25 17:30:47.894 [restartedMain] WARN  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server

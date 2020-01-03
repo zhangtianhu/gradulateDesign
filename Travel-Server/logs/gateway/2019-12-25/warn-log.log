@@ -1,0 +1,5 @@
+2019-12-25 17:28:52.769 [restartedMain] WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/api-gateway/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2019-12-25 17:29:31.664 [localhost-startStop-1] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-12-25 17:29:33.630 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-12-25 17:29:42.552 [restartedMain] WARN  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2019-12-25 17:30:42.159 [RMI TCP Connection(4)-192.168.30.1] WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/api-gateway/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect

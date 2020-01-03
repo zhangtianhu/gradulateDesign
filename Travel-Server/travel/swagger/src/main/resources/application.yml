@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: api-swagger
+server:
+  port: 10000
+feign:
+  hystrix:
+    enabled: true
+eureka:
+  instance:
+      prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8080/eureka
+logging:
+  config: classpath:logback.xml
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 30000
+ribbon:
+  ReadTimeout: 30000
+  ConnectTimeout: 30000

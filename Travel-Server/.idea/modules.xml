@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Travel-Server.iml" filepath="$PROJECT_DIR$/.idea/Travel-Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/travel/common/common.iml" filepath="$PROJECT_DIR$/travel/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/travel/eureka/eureka.iml" filepath="$PROJECT_DIR$/travel/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/travel/gateway/gateway.iml" filepath="$PROJECT_DIR$/travel/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/travel/information/information.iml" filepath="$PROJECT_DIR$/travel/information/information.iml" />
+      <module fileurl="file://$PROJECT_DIR$/travel/message/message.iml" filepath="$PROJECT_DIR$/travel/message/message.iml" />
+      <module fileurl="file://$PROJECT_DIR$/travel/swagger/swagger.iml" filepath="$PROJECT_DIR$/travel/swagger/swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/travel/travel.iml" filepath="$PROJECT_DIR$/travel/travel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/travel/user/user.iml" filepath="$PROJECT_DIR$/travel/user/user.iml" />
+    </modules>
+  </component>
+</project>
