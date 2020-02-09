@@ -50,7 +50,7 @@ public class MessageController{
         RedisUtil.setValue(SMS_NUMBER_PREFIX + mobile, String.valueOf(number + 1), 60 * 60 * 24);
         RedisUtil.setValue(SMS_VALIDATION_PREFIX + mobile, code, 60);
         // 发送验证码
-        // messageService.sendSMS(mobile, code); // TODO 接口已经调通需要调用的打开注释就行, 测试暂时不调用发送接口次数伤不起
+         messageService.sendSMS(mobile, code); // TODO 接口已经调通需要调用的打开注释就行, 测试暂时不调用发送接口次数伤不起
         log.info("[短信发送]手机号[{}], 验证码[{}]", mobile, code);
         return CommonUtil.getSuccessResult();
     }
