@@ -53,20 +53,19 @@
         axios.get(global.homeList)
           .then(res => {
             res = res.data
-            if(res.code === 200){
+            // if(res.code === 200){
               const data = res.data
-              console.log(data)
               this.swiperList = data.swiperList
               this.iconList = data.iconList
               this.recommendList = data.recommendList
               this.weekendList = data.weekendList
               this.crunchiesList = data.crunchiesList
-            }
+            // }
           }).catch(error => {
-            this.$notify.error({
-              title: '错误',
-              message: '系统出错'
-            })
+            // this.$notify.error({
+            //   title: '错误',
+            //   message: '系统出错'
+            // })
         })
       }
     },
