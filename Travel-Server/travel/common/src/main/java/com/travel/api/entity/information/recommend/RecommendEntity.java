@@ -4,9 +4,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 /**
  * @ClassName RecommendEntity
- * @Author liguangyao
- * @Date 19/8/18 下午11:56
- * @Version 1.0
+ * @Author zhangtianhu
  **/
 public class RecommendEntity {
 

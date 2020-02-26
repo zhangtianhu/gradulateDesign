@@ -22,92 +22,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/travel/user/src/main/resources/application.yml">
+      <file leaf-file-name="设计文档.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/travel/user/设计文档.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" selection-start-line="3" selection-end-line="6" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SysUser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/travel/user/src/main/java/com/travel/api/beans/SysUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-305">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="27">
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="设计文档.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/travel/message/设计文档.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-91" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/travel/message/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-621">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="设计文档.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/travel/user/设计文档.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserPermissions.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/travel/user/src/main/java/com/travel/api/controller/UserPermissions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MvcConfigurer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/travel/user/src/main/java/com/travel/api/interceptor/MvcConfigurer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-105">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SystemInterceptor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/travel/user/src/main/java/com/travel/api/interceptor/SystemInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-189">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SysUserMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/travel/user/src/main/java/com/travel/api/interfaces/SysUserMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommonMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/travel/user/src/main/java/com/travel/api/mappers/CommonMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-            </state>
-          </provider>
+      <file leaf-file-name="设计文档" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/travel/information/设计文档">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -124,6 +55,25 @@
         <option value="$PROJECT_DIR$/travel/message/src/main/java/com/travel/api/controller/MessageController.java" />
         <option value="$PROJECT_DIR$/travel/message/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/travel/user/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/travel/common/src/main/java/com/travel/api/enums/user/AccountEnum.java" />
+        <option value="$PROJECT_DIR$/travel/common/src/main/java/com/travel/api/entity/information/swiper/SwiperEntity.java" />
+        <option value="$PROJECT_DIR$/travel/common/src/main/java/com/travel/api/entity/information/recommend/RecommendEntity.java" />
+        <option value="$PROJECT_DIR$/travel/common/src/main/java/com/travel/api/entity/information/icon/IconEntity.java" />
+        <option value="$PROJECT_DIR$/travel/common/src/main/java/com/travel/api/entity/information/crunchies/CrunchiesEntity.java" />
+        <option value="$PROJECT_DIR$/travel/common/src/main/java/com/travel/api/exception/FallBackException.java" />
+        <option value="$PROJECT_DIR$/travel/information/src/main/java/com/travel/api/service/impl/MongoCommonServiceImpl.java" />
+        <option value="$PROJECT_DIR$/travel/information/src/main/java/com/travel/api/controller/home/CrunchiesController.java" />
+        <option value="$PROJECT_DIR$/travel/information/src/main/java/com/travel/api/controller/home/SwiperController.java" />
+        <option value="$PROJECT_DIR$/travel/information/src/main/java/com/travel/api/controller/home/RecommendController.java" />
+        <option value="$PROJECT_DIR$/travel/information/src/main/java/com/travel/api/controller/home/WeekendCtroller.java" />
+        <option value="$PROJECT_DIR$/travel/information/src/main/java/com/travel/api/controller/home/IconController.java" />
+        <option value="$PROJECT_DIR$/travel/information/src/main/java/com/travel/api/beans/CityEntity.java" />
+        <option value="$PROJECT_DIR$/travel/information/src/main/java/com/travel/api/beans/CrunchiesEntity.java" />
+        <option value="$PROJECT_DIR$/travel/information/src/main/java/com/travel/api/beans/IconEntity.java" />
+        <option value="$PROJECT_DIR$/travel/information/src/main/java/com/travel/api/beans/RecommendEntity.java" />
+        <option value="$PROJECT_DIR$/travel/information/src/main/java/com/travel/api/beans/SwiperEntity.java" />
+        <option value="$PROJECT_DIR$/travel/information/src/main/java/com/travel/api/beans/WeekendEntity.java" />
+        <option value="$PROJECT_DIR$/travel/swagger/src/main/java/com/travel/api/controller/message/MessageController.java" />
       </list>
     </option>
   </component>
@@ -143,8 +93,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="20" />
+    <option name="x" value="-8" />
+    <option name="y" value="26" />
     <option name="width" value="1346" />
     <option name="height" value="664" />
   </component>
@@ -153,6 +103,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -170,13 +121,12 @@
               <item name="Travel-Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="Travel-Server" type="462c0819:PsiDirectoryNode" />
               <item name="travel" type="462c0819:PsiDirectoryNode" />
-              <item name="message" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -353,14 +303,19 @@
       <workItem from="1577196079387" duration="3311000" />
       <workItem from="1577246087090" duration="16205000" />
       <workItem from="1581251146786" duration="8923000" />
+      <workItem from="1581592923873" duration="1304000" />
+      <workItem from="1582464447451" duration="2550000" />
+      <workItem from="1582548625412" duration="745000" />
+      <workItem from="1582625425906" duration="4246000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33516000" />
+    <option name="totallyTimeSpent" value="42361000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -374,17 +329,16 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.39968154" />
       <window_info anchor="bottom" id="TODO" order="14" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32890365" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="bottom" id="Java Enterprise" order="5" weight="0.32890365" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="1" visible="true" weight="0.5681063" />
+      <window_info anchor="bottom" id="Run Dashboard" order="1" weight="0.5678808" />
       <window_info anchor="bottom" id="Version Control" order="6" />
       <window_info anchor="bottom" id="Run" order="9" weight="0.2866242" />
       <window_info anchor="bottom" id="Spring" order="2" weight="0.32890365" />
       <window_info anchor="bottom" id="Terminal" order="3" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.3181818" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.33939394" />
       <window_info anchor="right" id="Bean Validation" order="5" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="4" />
@@ -392,6 +346,7 @@
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32890365" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="8" />
@@ -416,44 +371,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/travel/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel/eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-324" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel/travel.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel/eureka/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/ui/2019-12-25/trace-log.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/ui/2019-12-25/debug-log.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel/common/src/main/java/com/travel/api/service/BaseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel/information/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/travel/common/src/main/java/com/travel/api/enums/user/UserFlagEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -461,50 +378,127 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travel/common/src/main/java/com/travel/api/enums/user/UserTypeEnum.java">
+    <entry file="file://$PROJECT_DIR$/travel/common/src/main/java/com/travel/api/exception/UserException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel/common/src/main/java/com/travel/api/exception/ServiceException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel/common/src/main/java/com/travel/api/beans/request/message/EmailRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel/common/src/main/java/com/travel/api/beans/request/BaseRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travel/common/src/main/java/com/travel/api/beans/request/message/SMSRequest.java">
+    <entry file="file://$PROJECT_DIR$/travel/common/src/main/java/com/travel/api/exception/FallBackException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="-233">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travel/common/src/main/java/com/travel/api/beans/request/user/RegisterRequest.java">
+    <entry file="file://$PROJECT_DIR$/travel/common/src/main/java/com/travel/api/regexps/Regexp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="189">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travel/common/src/main/java/com/travel/api/beans/request/user/LoginRequest.java">
+    <entry file="file://$PROJECT_DIR$/travel/eureka/src/main/java/com/travel/api/EurekaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="162">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Travel思维导图.xmind">
+    <entry file="file://$PROJECT_DIR$/travel/information/src/main/java/com/travel/api/service/impl/MongoCommonServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel/information/src/main/java/com/travel/api/controller/home/SwiperController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel/information/src/main/java/com/travel/api/controller/home/RecommendController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel/information/src/main/java/com/travel/api/beans/CityEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel/information/src/main/java/com/travel/api/beans/CrunchiesEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel/information/src/main/java/com/travel/api/beans/IconEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel/information/src/main/java/com/travel/api/beans/RecommendEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel/information/src/main/java/com/travel/api/beans/SwiperEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel/information/.project">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel/information/src/main/java/com/travel/api/beans/WeekendEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel/swagger/src/main/java/com/travel/api/controller/user/WeChatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel/swagger/src/main/java/com/travel/api/controller/message/MessageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-476">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel/swagger/src/main/java/com/travel/api/util/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-328">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/travel/common/src/main/java/com/travel/api/controller/BaseController.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -513,209 +507,175 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travel/information/设计文档">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel/message/src/main/resources/banner.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel/message/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-324" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel/message/src/main/resources/generator/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel/message/src/main/java/com/travel/api/util/RedisUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2061">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel/gateway/设计文档.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel/message/src/main/java/com/travel/api/constant/SMSConstant.java">
+    <entry file="file://$PROJECT_DIR$/travel/common/src/main/java/com/travel/api/entity/ResultConstant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travel/gateway/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel/swagger/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel/message/src/main/java/com/travel/api/service/MessageService.java">
+    <entry file="file://$PROJECT_DIR$/travel/common/src/main/java/com/travel/api/entity/information/crunchies/CrunchiesEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-251">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="-382">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travel/message/src/main/java/com/travel/api/service/impl/MessageServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/travel/common/src/main/java/com/travel/api/enums/user/AccountEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1317">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        <state relative-caret-position="81">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travel/message/src/main/java/com/travel/api/controller/MessageController.java">
+    <entry file="file://$PROJECT_DIR$/travel/common/src/main/java/com/travel/api/exception/BaseException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="52" selection-start-line="52" selection-end-line="53" />
+        <state relative-caret-position="-206">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/autodeploy/autodeploy.sh">
+    <entry file="file://$PROJECT_DIR$/travel/common/src/main/java/com/travel/api/exception/RoleException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-729" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autodeploy/server.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel/message/src/main/java/com/travel/api/MessageApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travel/user/src/main/java/com/travel/api/util/RedisUtil.java">
+    <entry file="file://$PROJECT_DIR$/travel/common/src/main/java/com/travel/api/service/BaseService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1395">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel/user/src/main/java/com/travel/api/util/SysContent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-173">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel/user/src/main/java/com/travel/api/util/NetworkUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-227">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel/user/src/main/java/com/travel/api/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel/user/src/main/java/com/travel/api/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1269">
-          <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel/user/src/main/java/com/travel/api/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel/user/src/main/java/com/travel/api/controller/UserPermissions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel/user/src/main/java/com/travel/api/interceptor/MvcConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel/user/src/main/java/com/travel/api/interceptor/SystemInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-189">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel/user/src/main/java/com/travel/api/interfaces/SysUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysql/travel_user/sys_user.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+        <state relative-caret-position="108">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/travel/common/src/main/java/com/travel/api/util/MD5Util.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-260">
+        <state relative-caret-position="2214">
           <caret line="86" selection-start-line="86" selection-end-line="86" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travel/user/src/main/java/com/travel/api/mappers/CommonMapper.java">
+    <entry file="file://$PROJECT_DIR$/travel/gateway/src/main/resources/banner.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel/common/src/main/java/com/travel/api/util/BigDecimalUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel/gateway/src/main/java/com/travel/api/GatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel/gateway/src/main/java/com/travel/api/filter/SecurityFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel/information/src/main/java/com/travel/api/service/MongoCommonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel/information/src/main/java/com/travel/api/controller/home/WeekendCtroller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/eureka/2020-02-09/debug-log.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/eureka/2020-02-09/info-log.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228986" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/eureka/2019-12-24/info-log.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1296" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/eureka/2019-12-24/debug-log.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/eureka/2019-12-24/error-log.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/eureka/2019-12-24/trace-log.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel/gateway/gateway.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-729" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel/information/src/main/java/com/travel/api/controller/home/IconController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel/information/src/main/java/com/travel/api/controller/home/CrunchiesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel/gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel/gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel/user/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel/message/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel/gateway/设计文档.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/travel/user/设计文档.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel/message/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-621">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel/user/src/main/java/com/travel/api/UserApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel/user/src/main/java/com/travel/api/beans/SysUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-305">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="27">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/travel/message/设计文档.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-91" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/travel/user/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" selection-start-line="3" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/travel/information/设计文档">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

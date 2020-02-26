@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  * @ClassName SwiperController
- * @Author liguangyao
+ * @Author zhangtianhu
  * @Date 18/8/18 下午9:49
  * @Version 1.0
  **/

@@ -4,7 +4,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 /**
  * @ClassName RecommendEntity
- * @Author liguangyao
+ * @Author zhangtianhu
  * @Date 19/8/18 下午11:56
  * @Version 1.0
  **/

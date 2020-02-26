@@ -4,9 +4,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 /**
  * @ClassName SwiperEntity
- * @Author liguangyao
- * @Date 18/8/18 下午10:47
- * @Version 1.0
+ * @Author zhangtianhu
  **/
 public class SwiperEntity {
 

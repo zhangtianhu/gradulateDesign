@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  * @ClassName RecommendController
- * @Author liguangyao
+ * @Author zhangtianhu
  * @Date 19/8/18 下午11:59
  * @Version 1.0
  **/

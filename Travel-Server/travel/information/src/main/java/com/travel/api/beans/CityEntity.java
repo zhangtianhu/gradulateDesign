@@ -4,7 +4,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 /**
  * @ClassName CityEntity
- * @Author liguangyao
+ * @Author zhangtianhu
  * @Date 20/8/18 下午11:38
  * @Version 1.0
  **/

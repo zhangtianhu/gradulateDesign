@@ -4,9 +4,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 /**
  * @ClassName CrunchiesEntity
- * @Author liguangyao
- * @Date 19/8/18 下午11:51
- * @Version 1.0
+ * @Author zhangtianhu
  **/
 public class CrunchiesEntity {
 

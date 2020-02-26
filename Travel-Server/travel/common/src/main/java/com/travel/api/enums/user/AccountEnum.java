@@ -2,12 +2,6 @@ package com.travel.api.enums.user;
 
 import lombok.Getter;
 
-/**
- * @ClassName 账户Enum
- * @Author liguangyao
- * @Date 24/8/18 下午11:12
- * @Version 1.0
- **/
 @Getter
 public enum  AccountEnum {
 

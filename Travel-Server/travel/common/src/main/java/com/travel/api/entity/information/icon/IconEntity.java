@@ -4,9 +4,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 /**
  * @ClassName IconEntity
- * @Author liguangyao
- * @Date 19/8/18 下午11:17
- * @Version 1.0
+ * @Author zhangtianhu
  **/
 public class IconEntity {
 

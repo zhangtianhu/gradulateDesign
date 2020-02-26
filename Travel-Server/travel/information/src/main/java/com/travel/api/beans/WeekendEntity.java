@@ -4,7 +4,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 /**
  * @ClassName WeekendEntity
- * @Author liguangyao
+ * @Author zhangtianhu
  * @Date 20/8/18 上午12:03
  * @Version 1.0
  **/

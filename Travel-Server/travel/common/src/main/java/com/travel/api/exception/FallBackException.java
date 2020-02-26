@@ -2,9 +2,7 @@ package com.travel.api.exception;
 
 /**
  * @ClassName FallBackException
- * @Author liguangyao
- * @Date 20/8/18 下午12:00
- * @Version 1.0
+ * @Author zhangtianhu
  **/
 public class FallBackException extends Exception {
     private static final long serialVersionUID = 3L;

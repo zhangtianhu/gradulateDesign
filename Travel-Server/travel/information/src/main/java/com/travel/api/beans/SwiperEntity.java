@@ -7,7 +7,7 @@ import javax.persistence.Id;
 
 /**
  * @ClassName 轮播图实体类
- * @Author liguangyao
+ * @Author zhangtianhu
  * @Date 18/8/18 下午9:42
  * @Version 1.0
  **/
