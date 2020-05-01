@@ -14,7 +14,7 @@ import java.util.List;
  * @Version 1.0
  **/
 @RestController
-@RequestMapping("information/swiper")
+    @RequestMapping("information/swiper")
 public class SwiperController {
 
     @Autowired

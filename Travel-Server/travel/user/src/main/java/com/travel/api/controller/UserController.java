@@ -41,7 +41,7 @@ public class UserController extends BaseController {
     /**
      * 用户登录
      */
-    @PostMapping("/login")
+        @PostMapping("/login")
     public Map<String, Object> login(@RequestBody LoginRequest request, HttpServletRequest servletRequest) {
         return userService.login(request, servletRequest);
     }

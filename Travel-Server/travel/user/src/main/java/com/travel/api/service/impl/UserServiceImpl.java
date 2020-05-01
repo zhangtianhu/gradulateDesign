@@ -108,8 +108,8 @@ public class UserServiceImpl implements UserService {
         int update = sysUserMapper.updateByPrimaryKeySelective(sqlSysUser);
         // 创建Token 存入Redis中有效时间1小时并返回
         String token = CommonUtil.getId();
-        RedisUtil.setValue(TOKEN_PREFIX + token, sqlSysUser.getMobile(), 60 * 60);
-        // 返回前端Token值
+//        RedisUtil.setValue(TOKEN_PREFIX + token, sqlSysUser.getMobile(), 60 * 60);
+//        // 返回前端Token值
         log.info("[用户登录]账号:{},Token:{}",request.getUsername(), token);
         return CommonUtil.getSuccessResult("登录成功", token);
     }
