@@ -26,12 +26,6 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
-/**
- * @ClassName UserServiceImpl
- * @Author liguangyao
- * @Date 13/8/18 下午3:21
- * @Version 1.0
- **/
 @Service
 @Slf4j
 public class UserServiceImpl implements UserService {
@@ -98,9 +92,9 @@ public class UserServiceImpl implements UserService {
         // 判断密码是否正确
         SysUser sqlSysUser = sysUserList.get(0);
         String md5Password = sqlSysUser.getPassword();
-        if (!MD5Util.verify(request.getPassword(), md5Password)) {
-            return CommonUtil.getFailResult(ResultConstant.USERNAME_OR_PASSWORD_EOOR, "账号或密码错误");
-        }
+            if (!MD5Util.verify(request.getPassword(), md5Password)) {
+                return CommonUtil.getFailResult(ResultConstant.USERNAME_OR_PASSWORD_EOOR, "账号或密码错误");
+            }
 
         sqlSysUser.setLoginIp(servletRequest.getAttribute("IP").toString());
         sqlSysUser.setLoginDate(new Date());
@@ -108,7 +102,7 @@ public class UserServiceImpl implements UserService {
         int update = sysUserMapper.updateByPrimaryKeySelective(sqlSysUser);
         // 创建Token 存入Redis中有效时间1小时并返回
         String token = CommonUtil.getId();
-//        RedisUtil.setValue(TOKEN_PREFIX + token, sqlSysUser.getMobile(), 60 * 60);
+        RedisUtil.setValue(TOKEN_PREFIX + token, sqlSysUser.getMobile(), 60 * 60);
 //        // 返回前端Token值
         log.info("[用户登录]账号:{},Token:{}",request.getUsername(), token);
         return CommonUtil.getSuccessResult("登录成功", token);

@@ -5,7 +5,6 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * @ClassName SysContent
- * @Author liguangyao
  * @Date 30/5/18 下午3:26
  * @Version 1.0
  **/

@@ -3,7 +3,7 @@ spring:
     name: api-information
   data:
     mongodb:
-      uri: mongodb://travelproject.top:27017/travel_information
+      uri: mongodb://127.0.0.1:27017/travel_information
 server:
   port: 10003
 feign:

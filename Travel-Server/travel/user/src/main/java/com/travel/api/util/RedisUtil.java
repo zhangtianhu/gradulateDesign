@@ -14,8 +14,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * @ClassName Redis工具类
- * @Author liguangyao
- * @Date 2018/5/22 下午6:10
+ * @Date 2019/12/22 下午6:10
  * @Version 1.0
  **/
 @Component

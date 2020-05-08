@@ -26,7 +26,7 @@ spring:
     poolPreparedStatements: true
     maxOpenPreparedStatements: 20
 mybatis:
-  #mapperLocations: classpath*:/mapper/*.xml
+  mapperLocations: classpath*:/mapper/*.xml
   typeAliasesPackage: com.travel.api.beans
 mapper:
   mappers: com.travel.api.mappers.CommonMapper #通用mapper的所在接口名称

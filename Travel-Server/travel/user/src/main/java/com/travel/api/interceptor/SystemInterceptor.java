@@ -12,7 +12,6 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * @ClassName 系统拦截器
- * @Author liguangyao
  * @Date 14/8/18 下午4:53
  * @Version 1.0
  **/

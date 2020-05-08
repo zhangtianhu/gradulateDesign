@@ -8,7 +8,6 @@ import java.io.IOException;
 
 /**
  * @ClassName 常用获取客户端信息的工具
- * @Author liguangyao
  * @Date 14/8/18 下午5:04
  * @Version 1.0
  **/

@@ -20,7 +20,7 @@ import static com.travel.api.util.SendRequestUtils.net;
 
 /**
  * @ClassName MessageServiceImpl
- * @Author liguangyao
+ * @Author zhangtianhu
  * @Date 23/8/18 下午2:49
  * @Version 1.0
  **/
